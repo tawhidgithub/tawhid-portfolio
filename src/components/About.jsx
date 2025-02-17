@@ -40,11 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+       Hi, I’m Tawhid Islam, a passionate and detail-oriented Flutter and React Developer with 1+ Year of experience in building robust, scalable, and user-friendly mobile and web applications. I specialize in creating cross-platform apps and dynamic web interfaces that deliver seamless user experiences while meeting business objectives.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

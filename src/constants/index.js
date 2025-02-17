@@ -1,8 +1,9 @@
 import {
-  c,
-  python,
-  java,
-  cpp,
+  flutter,
+  dart,
+  postman,
+  android,
+  vsCode,
   javascript,
   html,
   css,
@@ -10,16 +11,12 @@ import {
   tailwind,
   nodejs,
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  ordhekdeen,
+  zayanse,
+  github,
+  Upwork,
+  Fletofix,
+  AL,
 } from "../assets";
 
 export const navLinks = [
@@ -38,133 +35,87 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "Flutter", icon: flutter },
+  { title: "React", icon: reactjs },
+  { title: "Dart", icon: dart },
+  { title: "JavaScript", icon: javascript },
 ];
 
 export const technologies = [
+  { name: "Flutter", icon: flutter },
+  { name: "Dart", icon: dart },
+  { name: "VS Code", icon: vsCode },
+  { name: "Android", icon: android },
+  { name: "Postman", icon: postman },
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
+  { name: "GitHub", icon: github },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Flutter Developer Intern",
+    company_name: "Fletofix.ltd",
+    icon: Fletofix,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "December 2023 -  March 2024",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "During my internship at Fletofix.com, I had the incredible opportunity to work as a Flutter Developer, where I was able to gain hands-on experience in constructing and optimizing mobile applications. This role allowed me to enhance my technical skills and apply my knowledge in a real-world setting",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Flutter Developer ",
+    company_name: "Appartisans Lab",
+    icon: AL,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "january 2025 - Present ",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "As a Flutter Cross-Platform Developer at Appartisans Lab, I was responsible for designing, developing, and maintaining mobile applications for both iOS and Android platforms. This role challenged me to create seamless, performant apps and provided me with the opportunity to further hone my expertise in cross-platform development",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Freelancer",
+    company_name: "Upwork",
+    icon: Upwork,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "July 2024 - Present ",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Hello! I'm a dedicated and skilled Flutter Developer with a passion for creating high-quality, cross-platform mobile applications. While I am new to Upwork, I bring 1+ years of experience in mobile app development, specializing in designing and optimizing user-friendly applications for both Android and iOS platforms",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "ordhek deen",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Ordhek Deen is a user-friendly mobile application designed to facilitate matchmaking within the Muslim community by offering personalized profiles and compatibility features. Developed using Flutter, the app ensures seamless functionality and an engaging user experience on Android platforms",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Flutter", color: "blue-text-gradient" },
+      { name: "Dart", color: "green-text-gradient" },
+      { name: "Getx", color: "pink-text-gradient" },
+      { name: "Rest API", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
+    image: ordhekdeen,
     source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Zayans",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Zayans is a feature-rich e-commerce application that provides users with a seamless shopping experience through an intuitive interface and secure payment options. Developed with a focus on performance, the app efficiently connects consumers to a diverse range of products on Android platforms",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Flutter", color: "blue-text-gradient" },
+      { name: "Dart", color: "green-text-gradient" },
+      { name: "Getx", color: "pink-text-gradient" },
+      { name: "Firebase", color: "pink-text-gradient" },
+      { name: "API ", color: "yellow-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
-  },
-  {
-    name: "Mental Health Fitness Tracker",
-    description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: zayanse,
+    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
   },
 ];

@@ -9,8 +9,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
+    const resumeUrl = 'https://drive.google.com/file/d/1G7PMuecOdiKF89NDwuZCNrjfKrGDXTWt/view?usp=drive_link';
+    window.open(resumeUrl );
   };
 
   useEffect(() => {
@@ -63,8 +63,8 @@ const Navbar = () => {
           >
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+              Tawhid&nbsp;
+              <span className="sm:block hidden">Islam</span>
             </p>
           </Link>
           {renderNavLinks(false)}
